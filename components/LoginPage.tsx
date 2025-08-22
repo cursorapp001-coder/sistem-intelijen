@@ -18,7 +18,7 @@ export const LoginPage: React.FC<LoginPageProps> = ({ onLoginSuccess }) => {
     // Simulate API call
     setTimeout(() => {
       // Hardcoded credentials for simulation purposes
-      if (username === "admin" && password === "admin") {
+      if (username === "Teguhlita23" && password === "Set@n234") {
         onLoginSuccess();
       } else {
         setError("Username atau password salah. Akses ditolak.");
